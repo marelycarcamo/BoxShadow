@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo_box_shadow</title>
+    <style>
+        
+
+        .cajas{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        
+        }
+
+         .cajas div{
+            width: 200px;
+            height: 80px;
+            background-color: whitesmoke;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         
+            
+        }  
+        .cajas div:nth-child(1){   /* CAJA A  */
+            box-shadow: -5px -5px lightgray;
+        }
+
+        .cajas div:nth-child(2){   /* CAJA B  */
+            box-shadow: -5px -5px 5px lightgray;
+        }
+
+        .cajas div:nth-child(3){   /* CAJA C  */
+            box-shadow: -5px -5px 0 5px lightgray;
+        }
+
+        .cajas div:nth-child(4){  /*  CAJA D  */
+            box-shadow: -10px -10px 5px 5px lightgray;
+        }
+
+        .cajas div:nth-child(5){  /*  CAJA E  */
+            box-shadow: 0px 0px 10px 5px lightgray;
+        }
+
+        .cajas div:nth-child(6){  /*  CAJA F  */
+            box-shadow: 0px 0px 5px 5px lightgray;
+        }
+
+        .cajas div:nth-child(7){  /* CAJA G  */
+            box-shadow: 5px 5px 0px 5px lightgrey;
+        }
+
+        .cajas div:nth-child(8){  /* CAJA H  */
+            box-shadow: inset -5px -5px 10px 0px lightgrey;
+        }
+
+        .cajas div:nth-child(9){ /*  CAJA I  */
+            box-shadow: 10px 10px 0px 10px lightgray;
+        }
+
+        .cajas div:nth-child(10){ /*  CAJA J  */
+            box-shadow: inset -5px -5px 10px 5px lightgray;
+        }
+
+        .cajas div:nth-child(11){  /*  CAJA K  */
+            box-shadow: inset 0px 0px 5px 0px lightgray;
+        }
+
+        .cajas div:nth-child(12){  /*  CAJA L  */
+            box-shadow: inset 0px 0px 5px 5px lightgray;
+        }
+
+
+
+
+
+       
+
+
+
+    </style>
+
+</head>
+<body >
+
+<div class="cajas">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+        <div>I</div>
+        <div>J</div>
+        <div>K</div>
+        <div>L</div>
+       
+
+
+
+
+    </div>
+    
+</body>
+</html>
